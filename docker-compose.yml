@@ -12,7 +12,7 @@ services:
       - backend
     volumes:
       - ./public_html:/usr/local/apache2/htdocs
-      - ./cert/:/usr/local/apache2/cert/
+      - ./cert/online-it:/usr/local/apache2/cert/
     depends_on:
       - php
       - mysql
